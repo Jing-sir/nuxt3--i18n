@@ -1,0 +1,50 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky",
+    "pre-commit": "lint-staged",
+    "commitlint": "commitlint --config commitlint.config.cjs -e -V"
+  },
+  "dependencies": {
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "nuxt": "^3.11.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "@element-plus/icons-vue": "^2.3.1",
+    "@element-plus/nuxt": "=1.0.8",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxt/kit": "^3.11.1",
+    "@nuxt/types": "^2.17.3",
+    "@nuxtjs/i18n": "^8.3.0",
+    "@nuxtjs/router": "^1.7.0",
+    "autoprefixer": "^10.4.19",
+    "dayjs": "^1.11.10",
+    "element-plus": "=2.6.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "postcss": "^8.4.38",
+    "postcss-custom-properties": "^13.3.6",
+    "prettier": "^3.2.5",
+    "reepack": "^1.0.2",
+    "typescript": "^5.4.3",
+    "vue-tsc": "^1.6.4"
+  }
+}
